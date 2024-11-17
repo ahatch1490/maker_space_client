@@ -11,11 +11,13 @@ import app from './App.vue'
 createApp(app).mount('#app')
 
 app.use(PrimeVue, {
-    preset: Aura,
-    options: {
-        cssLayer: {
-            name: 'primevue',
-            order: 'tailwind-base, primevue, tailwind-utilities'
+    theme: {
+        preset: Aura,
+        options: {
+            cssLayer: {
+                name: 'primevue',
+                order: 'tailwind-base, primevue, tailwind-utilities'
+            }
         }
     }
 });
