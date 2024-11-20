@@ -19,15 +19,7 @@ setup((app) => {
     /* My mixin */
   });
 });
-// Preview.use(PrimeVue, {
-//   theme: {
-//     preset: Aura,
-//     options: {
-//       cssLayer: false,
-//       darkModeSelector: false,
-//     }
-//   }
-// });
+
 
 const preview: Preview = {
   parameters: {
