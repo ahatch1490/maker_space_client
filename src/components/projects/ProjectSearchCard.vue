@@ -7,7 +7,7 @@ import Card from 'primevue/card';
     <template #header>
       <img class="rounded-t-lg " alt="user header" src="../../../public/widget.webp" />
     </template>
-    <template #title><h1 class="font-bold text-2xl">Advanced Card</h1></template>
+    <template #title>Advanced Card</template>
     <template #subtitle><h2 class="text-xl">Card subtitle</h2></template>
     <template #content>
       <p class="m-0">

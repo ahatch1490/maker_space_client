@@ -1,29 +1,35 @@
 import { createApp } from 'vue'
-import InputText from 'primevue/inputtext';
-import Button from 'primevue/button';
 import PrimeVue from 'primevue/config';
-import Card from 'primevue/card';
 import Aura from '@primevue/themes/aura';
 import './assets/tailwind.css'  // Import Tailwind CSS
 import './style.css'
-import app from './App.vue'
+import App from './App.vue'
 
-createApp(app).mount('#app')
+const app = createApp(App)
 
+// app.use(PrimeVue, {
+//     theme: {
+//         preset: Aura,
+//         options: {
+//             cssLayer: {
+//                 name: 'primevue',
+//                 order: 'tailwind-base, primevue, tailwind-utilities'
+//             }
+//         }
+//     }
+// });
 app.use(PrimeVue, {
     theme: {
         preset: Aura,
         options: {
-            cssLayer: {
-                name: 'primevue',
-                order: 'tailwind-base, primevue, tailwind-utilities'
-            }
+            cssLayer: false,
+            darkModeSelector: false,
         }
     }
 });
 
 
-
-app.component('InputText', InputText);
-app.component('Button', Button);
-app.component('Card', Card);
+// pp.component('InputText', InputText);
+// app.component('Button', Button);
+// app.component('Card', Card);
+app.mount('#app');
