@@ -7,7 +7,10 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    FloatLabel: typeof import('primevue/floatlabel')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    InputText: typeof import('primevue/inputtext')['default']
+    Panel: typeof import('primevue/panel')['default']
     ProjectResults: typeof import('./src/components/projects/ProjectResults.vue')['default']
     ProjectSearch: typeof import('./src/components/projects/ProjectSearch.vue')['default']
     ProjectSearchCard: typeof import('./src/components/projects/ProjectSearchCard.vue')['default']

@@ -9,7 +9,7 @@ const props = defineProps<{item: Project}>();
 <template>
   <Card style="width: 15rem; overflow: hidden" class="rounded-b-xl ">
     <template #header>
-      <img class="rounded-t-lg " alt="user header" v-bind:src=props.item.imageUrls[0] />
+      <img class="rounded-t-lg " alt="project image header" v-bind:src=props.item.imageUrls[0] />
     </template>
     <template #title>{{props.item.title}}</template>
     <template #content>
