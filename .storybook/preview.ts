@@ -4,7 +4,8 @@ import { setup } from '@storybook/vue3';
 import '../src/assets/tailwind.css';
 import PrimeVue from 'primevue/config';
 import Aura from "@primevue/themes/aura";
-import {createTestingPinia} from "@pinia/testing";
+import {IProjectService} from "../src/Types/IProjectService";
+import Project from "../src/Types/Project";
 
 
 
@@ -17,9 +18,10 @@ setup((app) => {
     }}});
   // app.use(createTestingPinia)
   // app.component('my-component', MyComponent);
-  app.provide('projectService', () => { return {
-    fetchProjectSearch: async (searchText:string) => { return data },
-  }});
+  app.provide('projectService',   {
+    fetchProjectSearch: async (searchText:string) => { return data.projects as Project[] },
+    fetchProjectDetails: async (searchText:string) => { return data.projects[0] as Project},
+  } as IProjectService);
   app.mixin({
     /* My mixin */
   });
