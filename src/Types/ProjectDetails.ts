@@ -11,6 +11,7 @@ interface ProjectDetails {
     websiteUrl: string; // The URL to the project's website
     materials: string[]; // An array of materials used in the projec
     plansAvailable : boolean; // A boolean indicating if plans are available for the project
+    dimensions: string; // The dimensions of the project
 }
 
 export default ProjectDetails;
