@@ -12,6 +12,7 @@ declare module 'vue' {
     InputText: typeof import('primevue/inputtext')['default']
     Panel: typeof import('primevue/panel')['default']
     ProgressBar: typeof import('primevue/progressbar')['default']
+    Project: typeof import('./src/components/projects/details/Project.vue')['default']
     ProjectBuildDetails: typeof import('./src/components/projects/details/ProjectBuildDetails.vue')['default']
     ProjectDescription: typeof import('./src/components/projects/details/ProjectDescription.vue')['default']
     ProjectDetail: typeof import('./src/components/projects/details/ProjectDetail.vue')['default']

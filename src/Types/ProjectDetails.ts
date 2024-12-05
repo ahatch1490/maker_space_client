@@ -1,3 +1,5 @@
+import ProjectProgress from "./ProjectProgress.ts";
+
 interface ProjectDetails {
     id: string; // The unique identifier of the project
     title: string; // The title of the project
@@ -12,6 +14,7 @@ interface ProjectDetails {
     materials: string[]; // An array of materials used in the projec
     plansAvailable : boolean; // A boolean indicating if plans are available for the project
     dimensions: string; // The dimensions of the project
+    projectProgress: ProjectProgress;
 }
 
 export default ProjectDetails;
