@@ -10,6 +10,7 @@ declare module 'vue' {
     FloatLabel: typeof import('primevue/floatlabel')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     InputText: typeof import('primevue/inputtext')['default']
+    OtherProjectsByMe: typeof import('./src/components/projects/details/OtherProjectsByMe.vue')['default']
     Panel: typeof import('primevue/panel')['default']
     ProgressBar: typeof import('primevue/progressbar')['default']
     Project: typeof import('./src/components/projects/details/Project.vue')['default']
