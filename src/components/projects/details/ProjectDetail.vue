@@ -9,7 +9,7 @@ const props = defineProps<{projectDetails:ProjectDetails}>();
 
 <template>
 <h1 class="text-4xl font-extrabold mb-4">{{props.projectDetails.title}}</h1>
-  <div class="border-2 border-gray-200 min-h-screen pl-2">
+  <div class=" min-h-screen pl-2">
     <div class="flex">
       <dl class="max-w-52 grid grid-cols-2 gap-x-4">
         <dt class="text-sm font-bold">Start Date</dt>
