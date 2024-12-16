@@ -108,6 +108,6 @@ Default.args = { projectDetails: {
         "difficulty": 4,
         "startDate": "2023-01-01",
         "endDate": "2023-06-01",
-        "materials": ["maple", "brass", "cherry"],
+        "materials": ["maple", "brass", "cherry","maple", "brass", "cherry", "maple", "brass", "cherry","maple", "brass", "cherry"],
         "dimensions": "24\" x 48\"",
     } as ProjectDetails};

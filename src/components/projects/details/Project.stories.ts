@@ -36,5 +36,20 @@ Default.args = { projectDetails: {
                 status: "In Progress",
             completedDate: '',
             startDate: "2023-01-01",
-            progression: 47,
-}} as ProjectDetails};
+            progression: 47,},
+        otherProjects: [{
+            "id": "12345",
+            "title": "Oak Chair",
+            "image_url": "../../../public/widget.webp",
+        },
+            {"id": "123456",
+                "title": "Oak Chair",
+                "image_url": "../../../public/widget.webp",
+            },
+            {"id": "1234567",
+                "title": "Oak Chair",
+                "image_url": "../../../public/widget.webp"
+            }
+        ]
+
+} as ProjectDetails};

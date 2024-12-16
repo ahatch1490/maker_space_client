@@ -1,4 +1,5 @@
 import ProjectProgress from "./ProjectProgress.ts";
+import {OtherProject} from "./OtherProject.ts";
 
 interface ProjectDetails {
     id: string; // The unique identifier of the project
@@ -15,6 +16,7 @@ interface ProjectDetails {
     plansAvailable : boolean; // A boolean indicating if plans are available for the project
     dimensions: string; // The dimensions of the project
     projectProgress: ProjectProgress;
+    otherProjects: OtherProject[];
 }
 
 export default ProjectDetails;
