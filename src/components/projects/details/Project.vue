@@ -12,33 +12,18 @@ const props = defineProps<{projectDetails:ProjectDetails}>();
 <template>
   <div class="flex">
     <div class="flex-auto w-32">
-      <div class="float-right">
-      <Card >
-        <template #content>
+      <div class="float-right mr-5">
             <ProjectImages :image-urls="props.projectDetails.imageUrls"></ProjectImages>
-        </template>
-      </Card>
     </div>
 
   </div>
     <div class="flex-auto w-64">
-      <Card>
-        <template #content>
           <ProjectDetail :projectDetails="props.projectDetails"></ProjectDetail>
-        </template>
-      </Card>
     </div>
-    <div class="flex-auto w-32 mb-4">
-      <Card>
-        <template #content>
+    <div class="flex-auto w-32 m-4" >
           <ProjectProgress :progress="props.projectDetails.projectProgress"></ProjectProgress>
-        </template>
-      </Card>
-      <Card>
-        <template #content>
+          <Divider></Divider>
           <OtherProjectsByMe :otherProjects="props.projectDetails.otherProjects"></OtherProjectsByMe>
-        </template>
-      </Card>
     </div>
   </div>
 </template>
