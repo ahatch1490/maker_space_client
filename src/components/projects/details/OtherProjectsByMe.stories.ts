@@ -18,14 +18,20 @@ export const Default = Template.bind({});
 Default.args = { otherProjects: [{
     "id": "12345",
     "title": "Oak Chair",
+    "progression": 33,
+    "difficulty": 3,
     "image_url": "../../../public/widget.webp",
     },
     {"id": "123456",
     "title": "Oak Chair",
-    "image_url": "../../../public/widget.webp",
+        "progression": 33,
+        "difficulty": 3,
+        "image_url": "../../../public/widget.webp",
     },
-    {"id": "1234567",
-    "title": "Oak Chair",
-    "image_url": "../../../public/widget.webp"
+    {   "id": "1234567",
+        "title": "Oak Chair",
+        "progression": 33,
+        "difficulty": 3,
+        "image_url": "../../../public/widget.webp"
     }
     ]};

@@ -40,14 +40,20 @@ Default.args = { projectDetails: {
         otherProjects: [{
             "id": "12345",
             "title": "Oak Chair",
+            "progression": 37,
+            "difficulty": 5,
             "image_url": "../../../public/widget.webp",
         },
             {"id": "123456",
-                "title": "Oak Chair",
+                "title": "Cedar box",
+                "progression": 88,
+                "difficulty": 1,
                 "image_url": "../../../public/widget.webp",
             },
-            {"id": "1234567",
-                "title": "Oak Chair",
+            {   "id": "1234567",
+                "title": "night stand",
+                "progression": 32,
+                "difficulty": 3,
                 "image_url": "../../../public/widget.webp"
             }
         ]
