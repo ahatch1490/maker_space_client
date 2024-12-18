@@ -12,7 +12,7 @@ const Template: StoryFn<typeof Project> = (args) => ({
     setup() {
         return { args };
     },
-    template: '<Project v-bind="args" />',
+    template: '<div style="max-width: 2000px; min-width: 1000px;"><Project v-bind="args" /></div>',
 });
 export const Default = Template.bind({});
 Default.args = { projectDetails: {

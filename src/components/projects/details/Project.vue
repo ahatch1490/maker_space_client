@@ -17,7 +17,7 @@ const props = defineProps<{projectDetails:ProjectDetails}>();
     </div>
 
   </div>
-    <div class="flex-auto w-64">
+    <div class="flex-auto w-52">
           <ProjectDetail :projectDetails="props.projectDetails"></ProjectDetail>
     </div>
     <div class="flex-auto w-32 m-4" >
