@@ -20,7 +20,7 @@ Default.args = { projectDetails: {
         "title": "Cherry Table Top",
         "description": "this is a description",
         "imageUrls": [
-            "../../../public/widget.webp",
+            "https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2208.webp",
             "../../../public/widget.webp",
             "../../../public/widget.webp",
             "../../../public/widget.webp"

@@ -9,8 +9,10 @@ declare module 'vue' {
   export interface GlobalComponents {
     Badge: typeof import('primevue/badge')['default']
     Card: typeof import('primevue/card')['default']
+    Carousel: typeof import('primevue/carousel')['default']
     Divider: typeof import('primevue/divider')['default']
     FloatLabel: typeof import('primevue/floatlabel')['default']
+    Galleria: typeof import('primevue/galleria')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     InputText: typeof import('primevue/inputtext')['default']
     OtherProjectsByMe: typeof import('./src/components/projects/details/OtherProjectsByMe.vue')['default']

@@ -9,6 +9,7 @@ const props = defineProps<{projectDetails:ProjectDetails}>();
 
 <template>
 <h1 class="text-4xl font-extrabold mb-4">{{props.projectDetails.title}}</h1>
+  <Divider></Divider>
   <div class=" min-h-screen pl-2">
     <div class="flex">
       <dl class="max-w-52 grid grid-cols-2 gap-x-4">
@@ -32,7 +33,7 @@ const props = defineProps<{projectDetails:ProjectDetails}>();
         >
           {{material}}</span>
     </div>
-
+    <Divider></Divider>
     <p  v-html="props.projectDetails.description"></p>
   </div>
 

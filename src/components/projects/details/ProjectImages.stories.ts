@@ -15,8 +15,8 @@ const Template: StoryFn<typeof ProjectImages> = (args) => ({
 });
 export const Default = Template.bind({});
 Default.args = {"imageUrls": [
-    "../../../public/widget.webp",
-    "../../../public/widget.webp",
+    "https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2208.webp",
+        "../../../public/widget.webp",
     "../../../public/widget.webp",
     "../../../public/widget.webp"
 ]};// An array of image URLs associated with the project
