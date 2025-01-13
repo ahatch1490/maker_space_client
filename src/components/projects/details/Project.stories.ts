@@ -21,9 +21,9 @@ Default.args = { projectDetails: {
         "description": "this is a description",
         "imageUrls": [
             "https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2208.webp",
-            "../../../public/widget.webp",
-            "../../../public/widget.webp",
-            "../../../public/widget.webp"
+            "https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2207.webp",
+            "https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2227.webp",
+            "https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2235.webp"
         ],
         "tags": ["furniture", "cherry", "table"],
         "difficulty": 4,

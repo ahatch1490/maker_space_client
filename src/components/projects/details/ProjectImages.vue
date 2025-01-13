@@ -56,7 +56,7 @@ const imageClick = (index) => {
       </template>
     </Galleria>
 
-    <div v-if="props.imageUrls" class="grid grid-cols-12 gap-4" style="max-width: 400px">
+    <div v-if="props.imageUrls" class="grid grid-cols-8 gap-4" style="max-width: 400px">
       <div v-for="(image, index) of props.imageUrls" :key="index" class="col-span-4">
         <img :src="image" alt="foobar" class="rounded-lg" style="cursor: pointer" @click="imageClick(index)" />
       </div>
