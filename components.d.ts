@@ -27,5 +27,7 @@ declare module 'vue' {
     ProjectResults: typeof import('./src/components/projects/ProjectResults.vue')['default']
     ProjectSearch: typeof import('./src/components/projects/ProjectSearch.vue')['default']
     ProjectSearchCard: typeof import('./src/components/projects/ProjectSearchCard.vue')['default']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
   }
 }
