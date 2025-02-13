@@ -20,11 +20,11 @@ const onSearch = async () =>  {
 </script>
 
 <template>
-  <Panel header="Project Search">
+  <Panel header="Project Search" class="!bg-gray-900 !text-white !border-white!">
     <FloatLabel>
-      <InputText type="text" class="content-center" style="width: 90%"   v-model="searchText" />
-      <label for="username">Search</label>
-      <button class="rounded-xl p-1.5 border-l-primary bg-gray-500 ml-2" @click="onSearch"> Submit </button>
+      <label for="textSearch" class="!text-white" >Search</label>
+      <InputText name="textSearch" type="text" class="content-center " style="width: 90%"   v-model="searchText" />
+      <button class="rounded-xl p-1.5 ml-2 !border-white border-2 !border-b-white" @click="onSearch"> Submit </button>
     </FloatLabel>
   </Panel>
   <panel v-if="projects.length > 0">

@@ -5,9 +5,9 @@ import ProjectSearch from "./components/projects/ProjectSearch.vue";
 
 <template>
   <div>
-    <nav>
-      <router-link to="/">Search</router-link>
-      <router-link to="/about">About</router-link>
+    <nav class="m-5">
+      <router-link class="m-3" to="/">Search</router-link>
+      <router-link class="m-3" to="/about">About</router-link>
     </nav>
     <router-view></router-view>
   </div>
