@@ -20,9 +20,8 @@ const onSearch = async () =>  {
 </script>
 
 <template>
-  <Panel header="Project Search" class="!bg-gray-900 !text-white !border-white!">
+  <Panel header="Project Search" class="!bg-gray-900 !text-white !border-white! ml-2 mr-2">
     <FloatLabel>
-      <label for="textSearch" class="!text-white" >Search</label>
       <InputText name="textSearch" type="text" class="content-center " style="width: 90%"   v-model="searchText" />
       <button class="rounded-xl p-1.5 ml-2 !border-white border-2 !border-b-white" @click="onSearch"> Submit </button>
     </FloatLabel>
