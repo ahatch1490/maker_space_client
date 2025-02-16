@@ -2,50 +2,55 @@
 import {inject, ref} from "vue";
 import ProjectResults from "./ProjectResults.vue";
 import {IProjectService} from "../../Types/IProjectService.ts";
+import {ClientOnlyProfileService } from "../../services/ClientOnlyProfileService"
 import Project from "../../Types/Project.ts";
 let searchText = ref(''); // Declare a reactive variable
 let projects = ref(new  Array<Project>() ); // Declare a reactive variable
-const profileService = inject('projectService') as IProjectService
+const profileService = inject('') as IProjectService
 console.log(profileService);
 
 const onSearch = async () =>  {
+  let service = new ClientOnlyProfileService();
+  let data = await service.fetchProjectSearch(searchText.value);
+  console.log(data);
+  projects.value = data["projectDetails"];
   // console.log(searchText.value);
   //  if (searchText.value === '') {
   //     return;
   //  }
   //  let data = await profileService.fetchProjectSearch(searchText.value);
   //  console.log(data);
-   projects.value = [{
-      id: "b1aca791-c041-4ed3-b041-265783908f05",
-      title: "FoobarBaz", // The title of the project
-      description: "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque" +
-          "quas!", // A brief description of the project
-      imageUrls: ["https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2207.webp"], // An array of image URLs associated with the project
-      tags: ["tag1","tag2"]
-    }, {
-      id: "b1aca791-c041-4ed3-b041-265783908f05",
-      title: "FoobarBazBuzz", // The title of the project
-      description: "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque" +
-          "quas!", // A brief description of the project
-      imageUrls: ["https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2208.webp"], // An array of image URLs associated with the project
-      tags: ["tag1","tag3"]
-    },
-     {
-       id: "b1aca791-c041-4ed3-b041-265783908f05",
-       title: "FoobarBaz", // The title of the project
-       description: "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque" +
-           "quas!", // A brief description of the project
-       imageUrls: ["https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2207.webp"], // An array of image URLs associated with the project
-       tags: ["tag1","tag2"]
-     }, {
-       id: "b1aca791-c041-4ed3-b041-265783908f05",
-       title: "FoobarBazBuzz", // The title of the project
-       description: "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque" +
-           "quas!", // A brief description of the project
-       imageUrls: ["https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2208.webp"], // An array of image URLs associated with the project
-       tags: ["tag1","tag3"]
-     }
-   ];
+  //  projects.value = [{
+  //     id: "b1aca791-c041-4ed3-b041-265783908f05",
+  //     title: "FoobarBaz", // The title of the project
+  //     description: "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque" +
+  //         "quas!", // A brief description of the project
+  //     imageUrls: ["https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2207.webp"], // An array of image URLs associated with the project
+  //     tags: ["tag1","tag2"]
+  //   }, {
+  //     id: "b1aca791-c041-4ed3-b041-265783908f05",
+  //     title: "FoobarBazBuzz", // The title of the project
+  //     description: "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque" +
+  //         "quas!", // A brief description of the project
+  //     imageUrls: ["https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2208.webp"], // An array of image URLs associated with the project
+  //     tags: ["tag1","tag3"]
+  //   },
+  //    {
+  //      id: "b1aca791-c041-4ed3-b041-265783908f05",
+  //      title: "FoobarBaz", // The title of the project
+  //      description: "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque" +
+  //          "quas!", // A brief description of the project
+  //      imageUrls: ["https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2207.webp"], // An array of image URLs associated with the project
+  //      tags: ["tag1","tag2"]
+  //    }, {
+  //      id: "b1aca791-c041-4ed3-b041-265783908f05",
+  //      title: "FoobarBazBuzz", // The title of the project
+  //      description: "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque" +
+  //          "quas!", // A brief description of the project
+  //      imageUrls: ["https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2208.webp"], // An array of image URLs associated with the project
+  //      tags: ["tag1","tag3"]
+  //    }
+  //  ];
 
 }
 
