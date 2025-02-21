@@ -7,17 +7,19 @@ let details = ref(null); // Declare a reactive variable
 
 onMounted(async () => {
   let service = new ClientOnlyProfileService();
-  details.value = await service.fetchProjectDetails(id);
+  details.value = await service.fetchProjectDetails(id.toString());
 });
 
 </script>
 
 <template>
-  <div v-if="details">
-    <Project :projectDetails="details"></Project>
-  </div>
-  <div v-else>
-    <p>Loading...</p>
+  <div class="m-5">
+    <div v-if="details">
+      <Project :projectDetails="details"></Project>
+    </div>
+    <div v-else>
+      <p>Loading...</p>
+    </div>
   </div>
 </template>
 
