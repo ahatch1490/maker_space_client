@@ -2,34 +2,44 @@
   "projectDetails": [
     {
       "id": "12345",
-      "title": "Cherry Table Top",
-      "description": "this is a description",
+      "title": "Gaming Dice Boxes",
+      "description": "Dice boxes I made for my daughter and the rest of her party. Used a friends laser cutter to generate the illustrations",
       "imageUrls": [
-        "https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2208.webp",
-        "https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2207.webp",
-        "https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2227.webp",
-        "https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2235.webp"
+        "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2304.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIzMDQuanBlZyIsImlhdCI6MTc0MDE2MDY0OSwiZXhwIjoyMzcwODgwNjQ5fQ.06g4_NWCo6HrXjH-PXTUD5ieERqrzGgJdELTmzPLaTU",
+        "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2206.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIyMDYuanBlZyIsImlhdCI6MTc0MDE1OTkyNSwiZXhwIjoyNjU0NzAzOTI1fQ.qzvjygg2Q8cUyLGv-iQ4O5mO974vtbApYLMzPAVJVjs",
+        "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2207.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIyMDcuanBlZyIsImlhdCI6MTc0MDE2MDIzMywiZXhwIjoyMzcwODgwMjMzfQ.PSucQ_nTnH9NSReNc7txuFKtNCsv_bHJB6_h2LONLtQ",
+        "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2208.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIyMDguanBlZyIsImlhdCI6MTc0MDE2MDM1NiwiZXhwIjoyMzcwODgwMzU2fQ.cnRlyJ1KrRh2kOxH6rLcuJ_pqJ8pYzV3dlg1LMvbI6M",
+        "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2227.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIyMjcuanBlZyIsImlhdCI6MTc0MDE2MDQxMiwiZXhwIjoyMzcwODgwNDEyfQ.25TiVj3wOz1q1S1eBiwl1uI6xordLHxaGB60XnIqNGg",
+        "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2235.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIyMzUuanBlZyIsImlhdCI6MTc0MDE2MDQ1MSwiZXhwIjoyMzcwODgwNDUxfQ.LbOEZdmaB4i540RrHGJu10IYl2TYxqmfSswQCW2jXTM",
+        "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2292.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIyOTIuanBlZyIsImlhdCI6MTc0MDE2MDQ5NCwiZXhwIjoyMzcwODgwNDk0fQ.N1Y9cw0_eWLvzUK5iXRUZyXhg3lxnrhXGrZsXFoHTwI",
+        "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2302.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIzMDIuanBlZyIsImlhdCI6MTc0MDE2MDU0NCwiZXhwIjoyMzcwODgwNTQ0fQ.ZJ9Mrvq4TU9SsB8odEV7xehBnToG48BzBJt-_1MmtR0",
+        "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2303.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIzMDMuanBlZyIsImlhdCI6MTc0MDE2MDU5OSwiZXhwIjoyMzcwODgwNTk5fQ.mhn6qRf0cKw9v3gDs3a8XGHkMxkVazDQAbhgp05EsR4",
+        "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2305.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIzMDUuanBlZyIsImlhdCI6MTc0MDE2MDY4NiwiZXhwIjoyMzcwODgwNjg2fQ.lHI2r_UV8qlCfjcm9VVzLrQbbeBMMNcBm7ivP1iVGwg",
+        "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2306.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIzMDYuanBlZyIsImlhdCI6MTc0MDE2MDcxNCwiZXhwIjoyMzcwODgwNzE0fQ.dkpoRtQinwgkrq4FY1u5ncuzfIS97Nwk5j0Tqkpr5y0",
+        "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2307.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIzMDcuanBlZyIsImlhdCI6MTc0MDE2MDgxOSwiZXhwIjoyMzcwODgwODE5fQ.bd27urTaig9JR2-eLhaQ6-0T5uMWJriDQ_ll8rFM2QU",
+        "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2308.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIzMDguanBlZyIsImlhdCI6MTc0MDE2MDg0NiwiZXhwIjoyMzcwODgwODQ2fQ.PFhucXMW-D_WAxfyLcPG_11R2WORxeiDc92XeB_sLDk"
       ],
       "tags": [
-        "furniture",
-        "cherry",
-        "table"
+        "maple",
+        "boxes",
+        "laser-cutter",
+        "dice-boxes"
       ],
-      "difficulty": 4,
+      "difficulty": 2,
       "startDate": "2023-01-01",
       "endDate": "2023-06-01",
       "materials": [
         "maple",
-        "brass",
-        "cherry"
+        "hobby_ply",
+        "felt"
       ],
-      "dimensions": "24\" x 48\"",
+      "dimensions": "5\" x 5\"",
       "projectProgress": {
         "projectId": "b1aca791-c041-4ed3-b041-265783908f05",
-        "status": "In Progress",
-        "completedDate": "",
-        "startDate": "2023-01-01",
-        "progression": 47
+        "status": "Completed",
+        "completedDate": "2024-10-01",
+        "startDate": "2025-01-10",
+        "progression": 100
       },
       "otherProjects": [
         {
@@ -60,10 +70,10 @@
       "title": "Cherry Table Top",
       "description": "this is a description",
       "imageUrls": [
-        "https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2208.webp",
-        "https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2207.webp",
-        "https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2227.webp",
-        "https://makerstoragimages.blob.core.windows.net/makerimages/IMG_2235.webp"
+        "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2206.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIyMDYuanBlZyIsImlhdCI6MTc0MDE1OTkyNSwiZXhwIjoyNjU0NzAzOTI1fQ.qzvjygg2Q8cUyLGv-iQ4O5mO974vtbApYLMzPAVJVjs",
+        "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2206.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIyMDYuanBlZyIsImlhdCI6MTc0MDE1OTkyNSwiZXhwIjoyNjU0NzAzOTI1fQ.qzvjygg2Q8cUyLGv-iQ4O5mO974vtbApYLMzPAVJVjs",
+        "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2206.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIyMDYuanBlZyIsImlhdCI6MTc0MDE1OTkyNSwiZXhwIjoyNjU0NzAzOTI1fQ.qzvjygg2Q8cUyLGv-iQ4O5mO974vtbApYLMzPAVJVjs",
+        "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2206.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIyMDYuanBlZyIsImlhdCI6MTc0MDE1OTkyNSwiZXhwIjoyNjU0NzAzOTI1fQ.qzvjygg2Q8cUyLGv-iQ4O5mO974vtbApYLMzPAVJVjs"
       ],
       "tags": [
         "furniture",
