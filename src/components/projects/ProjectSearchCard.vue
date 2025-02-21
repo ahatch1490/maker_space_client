@@ -2,12 +2,19 @@
 import Card from 'primevue/card';
 import Project from "../../Types/Project.ts";
 import {textLimit} from "../../core/TextLimit.ts";
+import { useRouter } from 'vue-router';
+
 const props = defineProps<{item: Project}>();
 
+const router = useRouter();
+function selectedProject(id  : string) {
+  console.log("Selected project: ", id);
+  router.push('/project/' + id);
+}
 </script>
 
 <template>
-  <Card style="width: 15rem; overflow: hidden" class="rounded-b-xl ">
+  <Card style="width: 15rem; overflow: hidden" class="rounded-b-xl " @click="selectedProject(props.item.id)">
     <template #header>
       <img class="rounded-t-lg " alt="project image header" v-bind:src=props.item.imageUrls[0] />
     </template>
@@ -18,7 +25,7 @@ const props = defineProps<{item: Project}>();
       </p>
     </template>
     <template #footer>
-      <span class="rounded text-blue-50 p-2 m-1 bg-gray-500 border-dashed border-b-gray-600"  v-for="tag in props.item.tags"  >#{{tag}} </span>
+
     </template>
   </Card>
 </template>

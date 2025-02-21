@@ -7,6 +7,7 @@ export class ClientOnlyProfileService implements IProjectService{
         return  data;
     }
     public fetchProjectDetails(id: string): Promise<Project>  {
-        return  data[0];
+
+        return  data.projectDetails[0];
     }
 }

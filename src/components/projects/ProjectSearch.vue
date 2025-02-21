@@ -7,12 +7,10 @@ import Project from "../../Types/Project.ts";
 let searchText = ref(''); // Declare a reactive variable
 let projects = ref(new  Array<Project>() ); // Declare a reactive variable
 const profileService = inject('') as IProjectService
-console.log(profileService);
 
 const onSearch = async () =>  {
   let service = new ClientOnlyProfileService();
   let data = await service.fetchProjectSearch(searchText.value);
-  console.log(data);
   projects.value = data["projectDetails"];
   // console.log(searchText.value);
   //  if (searchText.value === '') {
