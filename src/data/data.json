@@ -57,11 +57,11 @@
           "image_url": "../../../public/widget.webp"
         },
         {
-          "id": "1234567",
-          "title": "night stand",
-          "progression": 32,
-          "difficulty": 3,
-          "image_url": "../../../public/widget.webp"
+          "id": "12346",
+          "title": "Heywood Wakefield refurbish",
+          "progression": 100,
+          "difficulty": 2,
+          "image_url": "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12346/IMG_2191.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDYvSU1HXzIxOTEuanBlZyIsImlhdCI6MTc0MDE3Mjk2OSwiZXhwIjoyMzcwODkyOTY5fQ.jx33E-iPVO1Zztyv6_GYPeYafnrNcDnKTmXHMZG6v2E"
         }
       ]
     },

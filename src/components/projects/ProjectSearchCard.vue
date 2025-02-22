@@ -8,7 +8,6 @@ const props = defineProps<{item: Project}>();
 
 const router = useRouter();
 function selectedProject(id  : string) {
-  console.log("Selected project: ", id);
   router.push('/project/' + id);
 }
 </script>
