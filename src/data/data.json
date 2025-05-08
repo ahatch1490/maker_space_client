@@ -50,11 +50,11 @@
           "image_url": "../../../public/widget.webp"
         },
         {
-          "id": "123456",
-          "title": "Cedar box",
-          "progression": 88,
-          "difficulty": 1,
-          "image_url": "../../../public/widget.webp"
+          "id": "12347",
+          "title": "Kura Hack",
+          "progression": 37,
+          "difficulty": 5,
+          "image_url": "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12347/IMG_2357.JPG?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDcvSU1HXzIzNTcuSlBHIiwiaWF0IjoxNzQwMzU5NjkyLCJleHAiOjIzNzEwNzk2OTJ9.mdiFsVGv_4l_zZc2vymC_MJpTfljfywb63RDmMhhngY"
         },
         {
           "id": "12346",
@@ -107,11 +107,11 @@
       },
       "otherProjects": [
         {
-          "id": "12345",
-          "title": "Oak Chair",
-          "progression": 37,
-          "difficulty": 5,
-          "image_url": "../../../public/widget.webp"
+          "id": "12347",
+          "title": "Kura Hack",
+          "progression": 69,
+          "difficulty": 2,
+          "image_url": "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12347/IMG_2357.JPG?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDcvSU1HXzIzNTcuSlBHIiwiaWF0IjoxNzQwMzU5NjkyLCJleHAiOjIzNzEwNzk2OTJ9.mdiFsVGv_4l_zZc2vymC_MJpTfljfywb63RDmMhhngY"
         },
         {
           "id": "123456",
@@ -146,8 +146,8 @@
       ],
       "tags": [
         "hacks",
-        "cherry",
-        "table"
+        "bed",
+        "kura"
       ],
       "difficulty": 4,
       "startDate": "2023-01-01",
@@ -167,17 +167,17 @@
       "otherProjects": [
         {
           "id": "12345",
-          "title": "Oak Chair",
+          "title": "Dice Boxes",
           "progression": 37,
           "difficulty": 5,
-          "image_url": "../../../public/widget.webp"
+          "image_url": "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12345/IMG_2304.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDUvSU1HXzIzMDQuanBlZyIsImlhdCI6MTc0MDE2MDY0OSwiZXhwIjoyMzcwODgwNjQ5fQ.06g4_NWCo6HrXjH-PXTUD5ieERqrzGgJdELTmzPLaTU"
         },
         {
-          "id": "123456",
-          "title": "Cedar box",
-          "progression": 88,
-          "difficulty": 1,
-          "image_url": "../../../public/widget.webp"
+          "id": "12346",
+          "title": "Heywood Wakefield refurbish",
+          "progression": 100,
+          "difficulty": 2,
+          "image_url": "https://elscrfbahxirikrgqdwc.supabase.co/storage/v1/object/sign/maker_images/12346/IMG_2191.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtYWtlcl9pbWFnZXMvMTIzNDYvSU1HXzIxOTEuanBlZyIsImlhdCI6MTc0MDE3Mjk2OSwiZXhwIjoyMzcwODkyOTY5fQ.jx33E-iPVO1Zztyv6_GYPeYafnrNcDnKTmXHMZG6v2E"
         },
         {
           "id": "1234567",

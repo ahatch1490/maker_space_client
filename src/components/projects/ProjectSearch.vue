@@ -11,7 +11,8 @@ const profileService = inject('') as IProjectService
 const onSearch = async () =>  {
   let service = new ClientOnlyProfileService();
   let data = await service.fetchProjectSearch(searchText.value);
-  projects.value = data["projectDetails"];
+  console.log(data);
+  projects.value = data;
   // console.log(searchText.value);
   //  if (searchText.value === '') {
   //     return;

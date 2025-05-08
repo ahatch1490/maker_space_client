@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
-import Home from '@/views/Home.vue';
 import About from '../views/About.vue';
 import Search from "../views/Search.vue";
 import AProject from "../views/AProject.vue";
